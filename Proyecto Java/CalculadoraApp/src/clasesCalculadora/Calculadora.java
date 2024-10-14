@@ -20,12 +20,12 @@ public class Calculadora {
 
 		Double numero;
 		while (true) {
-			System.out.print("Por favor, ingrese un número Real: ");
+			Salida.print("Por favor, ingrese un número Real: ");
 			if (Entrada.hasNextInt()) {
 				numero = Entrada.nextDouble();
 				break;
 			} else {
-				System.out.println("Entrada inválida. Asegúrese de ingresar un número entero.");
+				Salida.println("Entrada inválida. Asegúrese de ingresar un número entero.");
 				Entrada.next(); // Limpiar el valor incorrecto ingresado
 			}
 		}
@@ -37,12 +37,12 @@ public class Calculadora {
 	public int pedirNumeroEntero() {
 		int numero;
 		while (true) {
-			System.out.print("Por favor, ingrese una opción: ");
+			Salida.print("Por favor, ingrese una opción: ");
 			if (Entrada.hasNextInt()) {
 				numero = Entrada.nextInt();
 				break;
 			} else {
-				System.out.println("Entrada inválida. Asegúrese de ingresar un número entero.");
+				Salida.println("Entrada inválida. Asegúrese de ingresar un número entero.");
 				Entrada.next(); // Limpiar el valor incorrecto ingresado
 			}
 		}
