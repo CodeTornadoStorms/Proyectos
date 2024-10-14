@@ -5,19 +5,19 @@ public class Persona {
 	private String nombre;
 	private String telefono;
 	private String email;
-	static private int numeroPersona=0;
-	
+	static private int numeroPersona = 0;
+
 	static int nPersonas() {
 		return Persona.numeroPersona;
 	}
-	
+
 	public Persona() {
 		this.id = ++Persona.numeroPersona;
 		this.nombre = "";
 		this.telefono = "";
 		this.email = "";
 	}
-	
+
 	public Persona(String nombre, String telefono, String email) {
 		this.id = ++Persona.numeroPersona;
 		this.nombre = nombre;
@@ -56,9 +56,9 @@ public class Persona {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-    public String toString() {
-        return "ID: " + id + "\tNombre: " + nombre + "\tTeléfono: " + telefono + "\tEmail: " + email;
-    }
+
+	public String toString() {
+		return "ID: " + id + "\tNombre: " + nombre + "\tTeléfono: " + telefono + "\tEmail: " + email;
+	}
 
 }
