@@ -2,7 +2,7 @@ package elementos;
 
 //clase teclado hereda de DispocitivosDeEntrada
 
-class Teclado extends DispocitivosDeEntrada {
+public class Teclado extends DispocitivosDeEntrada {
 
 	private static int contadorTeclado = 0;
 
