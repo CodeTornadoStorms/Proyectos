@@ -27,7 +27,7 @@ public class DispocitivosDeEntrada {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	// metodo toString
+	//metodo toString
 	@Override
     public String toString() {
         return "Tipo de entrada: " + tipoEntrada + ", Marca: " + marca;
@@ -35,7 +35,7 @@ public class DispocitivosDeEntrada {
 
 }
 
-// clase raton hereda de DispocitivosDeEntrada
+//clase raton hereda de DispocitivosDeEntrada
 class Raton extends DispocitivosDeEntrada {
 
 	private static int contadorRaton = 0;
