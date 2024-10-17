@@ -1,5 +1,2 @@
 package computadora;
-
-public class Computadora {
-
-}
+import elementos.

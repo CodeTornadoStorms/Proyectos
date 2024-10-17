@@ -8,14 +8,16 @@ public class Monitor {
 	private double tamanio;
 
 	public Monitor() {
+		this.idMonitor = ++Monitor.contadorMonitores;
 
 	}
 
-	public Monitor(int idMonitor, String marca, double tamanio) {
+	public Monitor(String marca, double tamanio) {
 
-		this.idMonitor = idMonitor;
+		this.idMonitor = ++Monitor.contadorMonitores;
 		this.marca = marca;
 		this.tamanio = tamanio;
+
 	}
 
 	public int getIdMonitor() {
