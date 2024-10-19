@@ -3,6 +3,7 @@ package orden;
 import java.util.ArrayList;
 
 import computadora.Computadora;
+import elementos.*;
 
 public class Orden {
 	private int idOrden;
