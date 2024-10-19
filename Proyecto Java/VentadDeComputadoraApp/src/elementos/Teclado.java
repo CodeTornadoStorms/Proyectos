@@ -13,7 +13,7 @@ public class Teclado extends DispocitivosDeEntrada {
 		this.idTeclado = ++Teclado.contadorTeclado;
 	}
 
-	public Teclado(String tipoEntrada, String marca, int idTeclado) {
+	public Teclado(String tipoEntrada, String marca) {
 		super(tipoEntrada, marca);
 		this.idTeclado = ++Teclado.contadorTeclado;
 
@@ -33,7 +33,7 @@ public class Teclado extends DispocitivosDeEntrada {
 
 	@Override
 	public String toString() {
-		return "Teclado [idTeclado=" + idTeclado + ", " + super.toString() + "]";
+		return "Teclado: idTeclado=" + idTeclado + ", " + super.toString();
 	}
 
 }

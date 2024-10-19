@@ -28,6 +28,6 @@ public class Raton extends DispocitivosDeEntrada {
 	// metodo toString
 	@Override
 	public String toString() {
-		return "Raton [idRaton=" + idRaton + ", " + super.toString() + "]";
+		return "Raton: idRaton=" + idRaton + ", " + super.toString();
 	}
 }

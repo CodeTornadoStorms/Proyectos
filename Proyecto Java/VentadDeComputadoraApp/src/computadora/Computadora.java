@@ -21,14 +21,11 @@ public class Computadora {
 		this.monitor = monitor;
 		this.teclado = teclado;
 		this.raton = raton;
+
 	}
 
 	public int getIdComputadora() {
 		return idComputadora;
-	}
-
-	public void setIdComputadora(int idComputadora) {
-		this.idComputadora = idComputadora;
 	}
 
 	public String getNombre() {
@@ -65,6 +62,13 @@ public class Computadora {
 
 	public static int getContadorComputadora() {
 		return Computadora.contadorComputadora;
+	}
+
+	// metodo toSring
+	@Override
+	public String toString() {
+		return "Computadora\nidComputadora:" + idComputadora + "\nnombre:" + nombre + "\n" + monitor + "\n" + teclado
+				+ "\n" + raton;
 	}
 
 }
